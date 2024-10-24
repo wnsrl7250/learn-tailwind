@@ -3,7 +3,7 @@
     "dev": "run-p serve watch",
     "serve": "live-server --host=localhost",
     "tailwind": "tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css",
-    "watch": "npm run tailwind -- watch"
+    "watch": "npm run tailwind -- --watch"
   },
   "devDependencies": {
     "live-server": "^1.2.2",
